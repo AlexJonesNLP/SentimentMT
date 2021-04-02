@@ -23,6 +23,8 @@ We construct sentiment classifiers by fine-tuning on labeled sentiment data in E
 
 **MT**
 
+We perform machine translation using the open-source [Helsinki-NLP/OPUS-MT models](https://github.com/Helsinki-NLP/Opus-MT), which offers pretrained models for easy usage [here](https://huggingface.co/Helsinki-NLP). We opted for this system because we were easily able to generate n-best lists and incorporate sentiment-based selection into the decoding step. Because we used pretrained models, we don't perform any of our own training, but [these notebooks](https://github.com/AlexJonesNLP/SentimentMT/tree/main/MT%20Notebooks) show how we integrate sentiment scoring into the translation selection process.
+
 **Experimental Materials**
 
 **License**
