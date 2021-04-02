@@ -30,7 +30,7 @@ Another advantage of the Helsinki-NLP models was the wide variety of supported l
 
 In human evaluations of the translations, we asked participants to grade translations based on both their accuracy (broadly speaking) and their level of sentiment divergence, and also asked them to provide reasons *why* they thought the sentiment of the source text differed from that of the translation, if applicable. We performed both an English-Spanish and English-Indonesian evaluation; see the following files:
 * The [translations that were evaluated](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Translations%20for%20Evaluation)
-* [Source texts (English tweets) deemed to be particularly "idiomatic"](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Idiomatic%20Source%20Texts)
+* [Source texts](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Idiomatic%20Source%20Texts) (English tweets) deemed to be particularly "idiomatic"
 * The [evaluation templates](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Evaluation%20Templates) themselves
 * The [notebooks](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Evaluation%20Analysis%20Notebooks) we used in analyzing the results of the human evaluations
 
