@@ -15,8 +15,17 @@ We conduct human evaluations on English-Spanish and English-Indonesian translati
 **Dependencies**
 
 [PyTorch](https://pytorch.org)
-[BeautifulSoup (for text preprocessing)](https://pypi.org/project/bs4/)
+
+[Transformers](https://huggingface.co/transformers/installation.html)
+
+[Scikit-learn](https://scikit-learn.org/stable/install.html)
+
+[SciPy](https://www.scipy.org/install.html)
+
+[BeautifulSoup](https://pypi.org/project/bs4/)(for text preprocessing)
+
 [Numpy](https://numpy.org/install/)
+
 [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
 **Sentiment Classification**
@@ -41,4 +50,8 @@ In human evaluations of the translations, we asked participants to grade transla
 
 **License**
 
+[BSD 3-clause](https://github.com/AlexJonesNLP/SentimentMT/blob/main/LICENSE).
+
 **Citation**
+
+CITATION COMING SOON
