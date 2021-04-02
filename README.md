@@ -10,4 +10,21 @@ We then generate <img src="https://latex.codecogs.com/svg.image?n" title="n" /> 
 
 <img src="https://latex.codecogs.com/svg.image?y&space;=&space;argmin_{x&space;\in&space;X}|S(x)&space;-&space;S(t)|,&space;|X|=n" title="y = argmin_{x \in X}|S(x) - S(t)|, |X|=n" />
 
-We conduct human evaluations on English-Spanish and English-Indonesian translations with proficient bilingual speakers and report the results in our paper. We also provide examples of tweets translated using this method in the Discussion and the appendix.
+We conduct human evaluations on English-Spanish and English-Indonesian translations with proficient bilingual speakers and report the results in our paper. We also provide examples of tweets translated using this method in the Discussion and the Appendix. 
+
+**Dependencies**
+
+**Sentiment Classification**
+
+We construct sentiment classifiers by fine-tuning on labeled sentiment data in English and Spanish separately. The English-only sentiment classifier is constructed using BERT; the notebook for training is availale [here](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Sentiment%20Classifier%20Notebooks/English_sentiment_notebook.py) and is based on the [BERT fine-tuning tutorial](https://mccormickml.com/2019/07/22/BERT-fine-tuning/) by Chris McCormick and Nick Ryan (as are all the notebooks we used for training our sentiment classifiers—citations are provided in-notebook). We also [fine-tune XLM-RoBERTa](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Sentiment%20Classifier%20Notebooks/Spanish_sentiment_notebook.py) using annotated Spanish data, and then [again](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Sentiment%20Classifier%20Notebooks/Multilingual_sentiment_notebook.py) using the English sentiment data. The sentiment models themselves (the PyTorch files containing the parameters) are available [here](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Sentiment%20Models%20(Download%20Links)/Sentiment%20Models%20(Links%20to%20Downloadable%20PyTorch%20Files).rtf), and the annotated sentiment data is available at the following links:
+
+* [English train](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Data%20and%20Reference%20Materials/Sentiment%20Train%20Data/English_train.rtf), [English test](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Data%20and%20Reference%20Materials/Sentiment%20Test%20Data/English_test.csv)
+* [Spanish train tweets](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Data%20and%20Reference%20Materials/Sentiment%20Train%20Data/Spanish_train_tweets.rtf), [Spanish train labels](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Data%20and%20Reference%20Materials/Sentiment%20Train%20Data/Spanish_train_sentiments.csv), [Spanish test](https://github.com/AlexJonesNLP/SentimentMT/blob/main/Data%20and%20Reference%20Materials/Sentiment%20Test%20Data/Spanish_test.csv)
+
+**MT**
+
+**Experimental Materials**
+
+**License**
+
+**Citation**
