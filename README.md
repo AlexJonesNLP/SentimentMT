@@ -22,7 +22,7 @@ We conduct human evaluations on English-Spanish and English-Indonesian translati
 
 [SciPy](https://www.scipy.org/install.html)
 
-[BeautifulSoup](https://pypi.org/project/bs4/)(for text preprocessing)
+[BeautifulSoup](https://pypi.org/project/bs4/) (for text preprocessing)
 
 [Numpy](https://numpy.org/install/)
 
