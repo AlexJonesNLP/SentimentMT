@@ -6,4 +6,4 @@ This is the repo associated with the paper **Sentiment-based Candidate Selection
 
 We then generate <img src="https://latex.codecogs.com/svg.image?n" title="n" /> translation candidates using beam search and select the candidate <img src="https://latex.codecogs.com/svg.image?y" title="y" /> whose sentiment score differs least from that of <img src="https://latex.codecogs.com/svg.image?t" title="t" />:
 
-<img src="https://latex.codecogs.com/svg.image?y&space;=&space;argmin_{x&space;\in&space;candidates}|S(x)&space;-&space;S(t)|,&space;|candidates|=n" title="y = argmin_{x \in X}|S(x) - S(t)|, |X|=n" />
+<img src="https://latex.codecogs.com/svg.image?y&space;=&space;argmin_{x&space;\in&space;X}|S(x)&space;-&space;S(t)|,&space;|X|=n" title="y = argmin_{x \in X}|S(x) - S(t)|, |X|=n" />
