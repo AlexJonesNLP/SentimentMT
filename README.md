@@ -50,7 +50,7 @@ In human evaluations of the translations, we asked participants to grade transla
 
 **License**
 
-[BSD 3-clause] (https://github.com/AlexJonesNLP/SentimentMT/blob/main/LICENSE).
+[BSD 3-clause](https://github.com/AlexJonesNLP/SentimentMT/blob/main/LICENSE).
 
 **Citation**
 
