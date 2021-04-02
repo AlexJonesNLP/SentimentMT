@@ -24,8 +24,15 @@ We construct sentiment classifiers by fine-tuning on labeled sentiment data in E
 **MT**
 
 We perform machine translation using the open-source [Helsinki-NLP/OPUS-MT models](https://github.com/Helsinki-NLP/Opus-MT), which offers pretrained models for easy usage [here](https://huggingface.co/Helsinki-NLP). We opted for this system because we were easily able to generate n-best lists and incorporate sentiment-based selection into the decoding step. Because we used pretrained models, we don't perform any of our own training, but [these notebooks](https://github.com/AlexJonesNLP/SentimentMT/tree/main/MT%20Notebooks) show how we integrate sentiment scoring into the translation selection process.
+Another advantage of the Helsinki-NLP models was the wide variety of supported languages, which we wielded to our advantage in trying our approach on many different languages (see the Appendix of our paper for concrete examples).
 
 **Experimental Materials**
+
+In human evaluations of the translations, we asked participants to grade translations based on both their accuracy (broadly speaking) and their level of sentiment divergence, and also asked them to provide reasons *why* they thought the sentiment of the source text differed from that of the translation, if applicable. We performed both an English-Spanish and English-Indonesian evaluation; see the following files:
+* The [translations that were evaluated](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Translations%20for%20Evaluation)
+* [Source texts (English tweets) deemed to be particularly "idiomatic"](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Idiomatic%20Source%20Texts)
+* The [evaluation templates](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Data%20and%20Reference%20Materials/Evaluation%20Templates) themselves
+* The [notebooks](https://github.com/AlexJonesNLP/SentimentMT/tree/main/Evaluation%20Analysis%20Notebooks) we used in analyzing the results of the human evaluations
 
 **License**
 
