@@ -54,4 +54,15 @@ In human evaluations of the translations, we asked participants to grade transla
 
 **Citation**
 
-CITATION COMING SOON
+Please cite our paper if you use any of the resources in this repo for your research:
+
+```
+@misc{jones2021sentimentbased,
+      title={Sentiment-based Candidate Selection for NMT}, 
+      author={Alex Jones and Derry Tanti Wijaya},
+      year={2021},
+      eprint={2104.04840},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
